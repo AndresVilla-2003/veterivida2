@@ -1,0 +1,285 @@
+
+.bg-sena{
+    background: #d1fff7;
+}
+
+nav{
+    color: #d1fff7;
+    position: fixed !important; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.bg-tigo {
+    background:#e988a5; 
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #CE578C; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #CE578C; 
+}
+
+
+.navbar-brand img {
+    max-width: 60px;
+    height: auto; 
+    border-radius: 35px;
+}
+
+.navbar-title {
+    font-size: 25px; 
+    margin-left: 100px;
+}
+
+.card-nosotros {
+    background-color: #ffffff; 
+    color: #000000; 
+}
+#NOSOTROS {
+    background-color: #f1abc0; 
+}
+
+
+
+#NOSOTROS{
+    width: 100%;
+    position: relative;
+    padding: 8% 0;
+}
+#NOSOTROS img{
+    width: 500px;
+    max-width: 80%;
+    display:block;
+    margin: 0 auto; 
+}
+
+#NOSOTROS h1{
+    color: #000;
+    padding-top: 50px;
+    font-size: 50px;
+    border-bottom: 5px solid #ffffff;
+display: inline-block;
+margin-bottom: 60px;
+}
+
+#NOSOTROS a{
+    padding: 14px 40px;
+    background: #d32f79;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 300px;
+    text-align: center;
+    transition: .5s;
+}
+
+#NOSOTROS a:hover{
+    background: #d32f79;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+#SERVICIOS{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+
+}
+#SERVICIOS {
+    background-color: #f1abc0; 
+    padding: 20px; 
+  }
+  
+#SERVICIOS h2{
+    color: #d32f79;
+    font-size: 100;
+    border-bottom: 2px solid #d1fff7;
+    display: inline-block;
+    margin-bottom: 80px;
+
+
+
+}
+
+#SERVICIOS h2 span{
+    font-size: 54px;
+
+}
+
+#SERVICIOS .card-servicio{
+    position: relative;
+z-index: 1;
+cursor: pointer;
+margin-top: 15px;
+
+}
+#SERVICIOS .card-servicio::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #f07c9f31;
+    transition: .5s;
+
+    
+
+}
+
+#SERVICIOS .card-servicio a{
+    color:#ffffff00 ;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    transition: .5s;
+}
+
+#SERVICIOS .card-servicio:hover a{
+    background: #d32f79;
+    color: #ffffff;
+    bottom: 48px;
+
+
+}
+#SERVICIOS .card-servicio:hover::after{
+    background: #f3739971;
+
+}
+
+#CONVENIO {
+    background-color: #f1abc0; 
+    padding: 50px; 
+    text-align: center;
+  }
+  
+  #CONVENIO h2 {
+    color: #d32f79; 
+    font-size: 30px; 
+  }
+  
+  #CONVENIO p {
+    color: #000000; 
+    font-size: 16px; 
+  }
+  
+  #CONVENIO .card {
+    border: none; 
+  }
+  
+  #CONVENIO iframe {
+    width: 100%; 
+    height: auto; 
+
+  }
+  
+
+#CONVENIO iframe {
+  width: 100%;
+  height: 365px; 
+}
+
+#CONVENIO {
+    background-color: #f1abc0;
+    
+  }
+
+
+#PASEO_CANINO .row {
+    flex-direction: row-reverse; 
+}
+
+
+#MI_SECCION {
+    background-color: #f1abc0;
+    
+  }
+ 
+#MI_SECCION h2 {
+    color: #d32f79; 
+}
+
+  #PASEO_CANINO {
+    background-color: #f1abc0;
+   
+  }
+  
+
+#PASEO_CANINO h2 {
+    color: #d32f79; 
+}
+
+
+
+  #carouselSection {
+    background-color: #f1abc0;
+  }
+  
+  #carouselSection h2 {
+    color: #d32f79;
+  }
+  body {
+      background-color: #f1abc0; 
+      text-align: center; 
+  }
+
+  #sugerencias .card {
+      display: inline-block;
+      width: 200px;
+      background-color: white; 
+      margin: 10px;
+      padding: 10px;
+      border-radius: 5px; 
+      text-align: center; 
+  }
+
+  #sugerencias .card img {
+      width: 100%;
+  }
+
+  #sugerencias .card:hover {
+      background-color: #f1abc0; 
+  }
+
+
+  
+#CONTACTOS{
+    width: 100%;
+    position: relative;
+    padding: 80px 0; 
+
+}
+
+footer{
+    background: #e988a5;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+
